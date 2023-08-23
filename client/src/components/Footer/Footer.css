@@ -1,0 +1,41 @@
+.footer {
+  background-color: rgba(51, 47, 80, 0.2);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer h2 {
+  font-size: 17pt;
+  font-weight: normal;
+}
+
+.footer a {
+  color: #332f50;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  .footer h2 {
+    font-size: 18pt;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer h2 {
+    font-size: 20pt;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer h2 {
+    font-size: 20pt;
+  }
+}

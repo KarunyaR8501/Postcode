@@ -1,0 +1,231 @@
+.userposts-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.userposts-container h2,
+.add {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.post-title,
+.userposts-container h4,
+.userposts-container p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* User edit */
+
+.user-edit {
+  margin-top: 35px;
+}
+
+.edit-img {
+  height: 15px;
+}
+
+.user-edit a {
+  margin-left: auto;
+}
+
+.user-edit h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.about {
+  max-width: 700px;
+  text-align: center;
+  margin: 0px;
+}
+
+.about p {
+  margin: 10px;
+}
+
+.add-about {
+  font-style: italic;
+  color: rgb(163, 163, 163);
+  padding: 3px;
+  /* margin: 0px; */
+}
+
+.add-about-img {
+  height: 13px;
+}
+
+.hr-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.hr {
+  max-width: 700px;
+  border: 1px solid #e0e0e0;
+}
+
+/* Posts */
+.new-entry {
+  padding-bottom: 20px;
+}
+
+.add {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.add-nav {
+  height: 15px;
+  padding-left: 5px;
+}
+.add-nav {
+  padding-top: 3px;
+}
+
+.all-posts {
+  padding-bottom: 50px;
+}
+
+.user-post {
+  border: 1px solid #45415a;
+  border-radius: 20px;
+  max-width: 700px;
+  padding: 12px;
+  margin: 15px 0px;
+}
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title-date h4 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0px;
+  padding-left: 10px;
+  color: rgb(163, 163, 163);
+}
+
+.post-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.no-posts {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  .user-edit h2 {
+    font-size: 30px;
+  }
+
+  .about p,
+  .add-about,
+  .no-posts {
+    font-size: 17px;
+  }
+
+  .add {
+    font-size: 23px;
+  }
+
+  .edit-img {
+    height: 16px;
+  }
+
+  .add-nav {
+    height: 16px;
+  }
+
+  .title-date h4 {
+    font-size: 16px;
+  }
+
+  .post-title {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .user-edit h2 {
+    font-size: 35px;
+  }
+
+  .about p,
+  .add-about,
+  .no-posts {
+    font-size: 18px;
+  }
+
+  .add {
+    font-size: 25px;
+  }
+
+  .edit-img {
+    height: 17px;
+  }
+
+  .add-nav {
+    height: 18px;
+  }
+
+  .title-date h4 {
+    font-size: 17px;
+  }
+
+  .post-title {
+    font-size: 20px;
+  }
+
+  .userposts-container p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .user-edit h2 {
+    font-size: 35px;
+  }
+
+  .about p,
+  .add-about,
+  .no-posts {
+    font-size: 18px;
+  }
+
+  .add {
+    font-size: 25px;
+  }
+
+  .edit-img {
+    height: 17px;
+  }
+
+  .add-nav {
+    height: 18px;
+  }
+
+  .title-date h4 {
+    font-size: 17px;
+  }
+
+  .post-title {
+    font-size: 20px;
+  }
+
+  .userposts-container p {
+    font-size: 17px;
+  }
+}

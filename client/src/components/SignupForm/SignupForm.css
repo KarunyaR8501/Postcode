@@ -1,0 +1,100 @@
+.SignupForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.SignupForm input,
+.SignupForm label,
+.SignupForm button,
+.cancel-btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.SignupForm h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form input {
+  margin: 8px 0;
+  padding: 7px;
+  border: 1px solid #332f50;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.signup-cancel-btns {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-cancel-btns button {
+  padding: 6px;
+  border: 1px solid #332f50;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 210px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #332f50;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  .SignupForm h2 {
+    font-size: 32px;
+  }
+
+  .signup-form input {
+    font-size: 15px;
+  }
+
+  .signup-cancel-btns button {
+    font-size: 17px;
+    width: 225px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .SignupForm h2 {
+    font-size: 35px;
+  }
+
+  .signup-form input {
+    font-size: 16px;
+  }
+
+  .signup-cancel-btns button {
+    font-size: 18px;
+    width: 235px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .SignupForm h2 {
+    font-size: 40px;
+  }
+
+  .signup-form input {
+    font-size: 18px;
+  }
+
+  .signup-cancel-btns button {
+    font-size: 18px;
+    width: 265px;
+  }
+}

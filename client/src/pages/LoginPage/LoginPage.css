@@ -1,0 +1,122 @@
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.LoginPage input,
+.LoginPage label,
+.LoginPage button,
+.cancel-btn,
+.login-err-msg {
+  font-family: "Montserrat", sans-serif;
+}
+
+.LoginPage h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  margin: 8px 0;
+  padding: 7px;
+  border: 1px solid #332f50;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login-cancel-btns {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form button {
+  padding: 6px;
+  border: 1px solid #332f50;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 210px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #332f50;
+}
+
+.cancel-btn {
+  font-size: 14px;
+}
+
+.login-err-msg {
+  padding: 0 35px;
+  color: #332f50;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  .LoginPage h2 {
+    font-size: 32px;
+  }
+
+  .login-form input {
+    font-size: 15px;
+  }
+
+  .login-form button {
+    font-size: 17px;
+    width: 225px;
+  }
+
+  .cancel-btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .LoginPage h2 {
+    font-size: 35px;
+  }
+
+  .login-form input {
+    font-size: 16px;
+  }
+
+  .login-form button {
+    font-size: 18px;
+    width: 235px;
+  }
+
+  .cancel-btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .LoginPage h2 {
+    font-size: 40px;
+  }
+
+  .login-form input {
+    font-size: 18px;
+  }
+
+  .login-form button {
+    font-size: 18px;
+    width: 265px;
+  }
+
+  .cancel-btn {
+    font-size: 18px;
+  }
+}
